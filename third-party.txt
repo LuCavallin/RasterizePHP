@@ -1,0 +1,11 @@
+This document contains the list of Third Party Software included with
+RasterizePHP, along with the license information.
+
+Third Party Software may impose additional restrictions and it is the
+user's responsibility to ensure that they have met the licensing
+requirements of RasterizePHP and the relevant license of the Third Party
+Software they are using.
+
+PhantomJS - http://http://phantomjs.org//
+License: BSD
+Reference: https://github.com/ariya/phantomjs/blob/master/LICENSE.BSD
