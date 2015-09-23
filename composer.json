@@ -1,5 +1,5 @@
 {
-	"name": "lucavallin/rasterizephp",
+	"name": "lucavallin/RasterizePHP",
   	"description": "PDF generation class using Ariya Hidayat's PhantomJS and rasterize.js.",
   	"version": "0.2.7",
   	"license": "MIT",
