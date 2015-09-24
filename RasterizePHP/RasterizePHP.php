@@ -112,7 +112,7 @@ class RasterizePHP
      * Sets PhantomJS + rasterize.js path, used in conversion command
      * Throws RasterizePHPException if PhantomJS or rasterize.js are not found
      */
-    private function setScriptPath()
+    protected function setScriptPath()
     {
         $phantomjs_path = dirname(__FILE__) . "/phantomjs/phantomjs";
         $rasterizejs_path = dirname(__FILE__) . "/phantomjs/rasterize.js";
@@ -290,7 +290,7 @@ class RasterizePHP
      *
      * Returns full conversion command for exec()
      */
-    private function getCommand()
+    protected function getCommand()
     {
         return escapeshellcmd(implode(" ",
             [$this->scriptPath, self::FILE_URI . $this->srcPath, $this->dstPath, $this->pageSize]));
