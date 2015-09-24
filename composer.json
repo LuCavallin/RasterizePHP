@@ -1,18 +1,18 @@
 {
-	"name": "lucavallin/RasterizePHP",
-  	"description": "PDF generation class using Ariya Hidayat's PhantomJS and rasterize.js.",
-  	"version": "0.2.7",
-  	"license": "MIT",
-	"authors": [
-		{
-			"name": "Luca Cavallin",
-			"email": "me@lucavall.in",
-		  	"homepage": "http://lucavall.in"
-		}
-	],
-	"autoload": {
-		"psr-4": {
-			"LuCavallin\\RasterizePHP\\": "RasterizePHP/"
-		}
-	}
+  "name": "lucavallin/RasterizePHP",
+  "description": "PDF generation class using Ariya Hidayat's PhantomJS and rasterize.js.",
+  "version": "0.2.7",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luca Cavallin",
+      "email": "me@lucavall.in",
+      "homepage": "http://lucavall.in"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LuCavallin\\RasterizePHP\\": "RasterizePHP/"
+    }
+  }
 }
