@@ -1,4 +1,7 @@
 # RasterizePHP
+
+This package is no longer mantained, use at your own risk!
+
 PDF generation class using Ariya Hidayat's PhantomJS and rasterize.js.
 Simply pass some HTML or an URL to the class and then call the *rasterize()* method to get the converted file.
 If an URL is provided, content will be automatically retrieved from the page.
